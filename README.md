@@ -56,28 +56,35 @@ Ce projet est sous licence MIT.
 
 ```
 Securitary/
-├── src/
-│   ├── main.py                # Point d'entrée de l'application
-│   ├── gui/
-│   │   ├── __init__.py
-│   │   ├── main_window.py     # Fenêtre principale
-│   │   ├── widgets/
-│   │   │   ├── __init__.py
-│   │   │   ├── password_widget.py # Widget pour l'affichage/génération du mot de passe
-│   │   ├── models/
-│   │   │   ├── __init__.py
-│   │   │   ├── password_model.py  # Modèle de génération de mot de passe
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── password_generator.py  # Logique de génération de mot de passe
-│   ├── resources/
-│   │   ├── __init__.py
-│   │   ├── icons/
-├── tests/
-│   ├── __init__.py
-│   ├── test_password_generator.py # Tests unitaires
-├── requirements.txt
-├── README.md
+├── assets/
+│   ├── logo.png               # Logo de l'application
+│   ├── background.png         # Image de fond pour l'interface
+├── config/
+│   ├── app_config.py          # Configuration globale de l'application
+│   ├── settings.json          # Paramètres utilisateur ou par défaut
+├── core/
+│   ├── password_generator.py  # Logique principale de génération de mot de passe
+│   ├── utils.py               # Fonctions utilitaires pour le cœur de l'application
+├── gui/
+│   ├── main_window.py         # Fenêtre principale de l'application
+│   ├── widgets.py             # Widgets personnalisés pour l'interface
+├── output/
+│   ├── generated_passwords.txt # Fichier temporaire pour les mots de passe exportés
+├── resources/
+│   ├── icons/
+│   │   ├── copy_icon.png      # Icône pour le bouton "Copier"
+│   │   ├── generate_icon.png  # Icône pour le bouton "Générer"
+├── services/
+│   ├── clipboard_service.py   # Service pour interagir avec le presse-papiers
+│   ├── file_export_service.py # Service pour exporter les mots de passe
+├── ui/
+│   ├── styles.qss             # Feuille de style pour l'interface graphique
+├── utils/
+│   ├── validation.py          # Validation des entrées utilisateur
+│   ├── logger.py              # Gestion des logs pour le débogage
+├── LICENSE                    # Licence du projet
+├── README.md                  # Documentation du projet
+└── main.py                    # Point d'entrée de l'application
 ```
 
 
