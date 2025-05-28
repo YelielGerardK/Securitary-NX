@@ -18,8 +18,8 @@ Securitary-NX est une application de bureau moderne et sécurisée pour génére
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/securitary-nx.git
-   cd securitary-nx
+   git clone https://github.com/YelielGerardK/Securitary-NX.git
+   cd Securitary-NX
    ```
 2. Créez un environnement virtuel et installez les dépendances :
    ```bash
