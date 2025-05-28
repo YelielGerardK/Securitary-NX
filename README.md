@@ -32,7 +32,7 @@ Securitary-NX est une application de bureau moderne et sécurisée pour génére
 
 Lancez l'application :
 ```bash
-python src/main.py
+python main.py
 ```
 
 ## Exemple d'utilisation
