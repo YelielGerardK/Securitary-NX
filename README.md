@@ -80,11 +80,6 @@ Securitary/
 ├── README.md
 ```
 
-## Tests
-
-```bash
-pytest tests/
-```
 
 ## Auteurs
-- Votre nom ici 
+- Rabenandrasana Yeliel Gerard
