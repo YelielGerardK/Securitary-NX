@@ -84,7 +84,8 @@ Securitary/
 │   ├── logger.py              # Gestion des logs pour le débogage
 ├── LICENSE                    # Licence du projet
 ├── README.md                  # Documentation du projet
-└── main.py                    # Point d'entrée de l'application
+├── main.py                    # Point d'entrée de l'application
+└── requirements.txt           # Liste des dépendances Python
 ```
 
 
